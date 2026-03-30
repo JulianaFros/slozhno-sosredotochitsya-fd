@@ -10,8 +10,9 @@
   --title-color: #FFC2E6;
   --link-color: #353430;
   --decoration-color: #353430;
-  --background-color: #FFF1F7;
-  .header__decoration-dark {
+  --background-color: #353430;
+  --text-title-color: #353430;
+  .rec {
     display: none;
   }
 }
@@ -24,9 +25,10 @@
    --title-color: #FFC2E6;
    --link-color: #353430;
    --decoration-color: #353430;
-   --background-color:#FFF1F7;
+   --background-color:#353430;
+  --text-title-color: #353430;
   }
-  .header__decoration-dark {
+  .rec {
     display: none;
   }
 } 
