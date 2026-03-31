@@ -12,6 +12,7 @@
   --decoration-color: #353430;
   --background-color: #353430;
   --text-title-color: #353430;
+  --border-color-active: #353430;
   .rec {
     display: none;
   }

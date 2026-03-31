@@ -12,6 +12,7 @@
   --main-font-family: 'IBM Plex mono', monospace;
   --border-color: transparent;
   --border: 1px solid var(--border-color);
+  --border-color-active: #FF0070;
   --button-hover: rgb(255, 0, 112,0.4);
   --link-color: #F1B2CE;
   --decoration-color: #FF0070;
