@@ -12,7 +12,9 @@
   --decoration-color: #FF0070;
   --background-color: #000028;
   --text-title-color: #FF0070;
+  --border-color-active: #FF0070;
+  --button-hover: #FF0070;
   .rec {
-    display: block;
+    display: flex;
   }
 }

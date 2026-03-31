@@ -262,8 +262,7 @@
 	text-shadow: 2px 2px 0px var(--main-color);
 }
 
-@media (width >=768px) {
-
+@media (width >= 375px) {
 	.decorated-zone::before {
 		top: 10px;
 		right: 10px;
@@ -272,6 +271,40 @@
 	.decorated-zone::after {
 		bottom: 10px;
 		left: 10px;
+	}
+
+	.rec {
+		top: 10px;
+		right: 9px;
+	}
+
+	.header__theme-menu-list {
+		gap: 10px;
+	}
+
+	.factor-card {
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+}
+	
+}
+
+@media (width >=768px) {
+
+	.decorated-zone::before {
+		top: 20px;
+		right: 20px;
+	}
+
+	.decorated-zone::after {
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.rec {
+		top: 20px;
+		right: 20px;
 	}
 
 	.header {
@@ -334,16 +367,20 @@
 	.difficulties {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
-		margin-block-start: 65px;
+		margin-block-start: 62px;
 		margin-block-end: 70px;
 	}
 
 	.factors {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 		grid-auto-flow: row;
 		margin: 0;
-		margin-block-start: var(--general-padding, 10px);
+		gap: 0;
+	}
+
+	.factor-card {
+		gap: 0;
 	}
 
 	.tips {
@@ -399,6 +436,7 @@
 	.aligment-title {
 		display: block;
 		width: 35%;
+		margin-block-end: 8px;
 	}
 
 	.tips {
@@ -407,5 +445,18 @@
 
 	.footer__text {
 		font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+	}
+
+	.factor-card {
+		gap: 11px;
+	}
+
+	.factors {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: none;
+		grid-auto-flow: row;
+		margin: 0;
+		gap: 20px;
 	}
 }
