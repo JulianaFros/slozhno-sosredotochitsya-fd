@@ -13,7 +13,7 @@
   --background-color: #353430;
   --text-title-color: #353430;
   --border-color-active: #353430;
-  --button-hover: #transparent;
+  --button-hover: rgba(50, 49, 45, 0.4);
   .rec {
     display: none;
   }
@@ -30,7 +30,7 @@
    --background-color:#353430;
   --text-title-color: #353430;
   --border-color-active: #353430;
-  --button-hover: #transparent;
+  --button-hover: rgba(50, 49, 45, 0.4);
   }
   .rec {
     display: none;
